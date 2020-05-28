@@ -1,27 +1,19 @@
-# Adminpro
+# Angular Admin
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.0.
+Panel de admin realizado con angular, puede ser usado como base para otros paneles de admin y utiliza bastantes elementos de Angular. Originalmente se usó una API desarrollada en express, aunque podría funcionar con cualquier api.
 
-## Development server
+Entre los elementos que utiliza este admin destacamos los siguientes:
+- Modularización e implementación del lazy load.
+- Creación de formularios por template y reactivos.
+- Creación de pipes personalizadas.
+- Creación de guards para limitar el acceso según el rol del usuario.
+- Creación de services para manejar la comunicación con la API.
+- Uso del localstorage para el guardado de preferencias.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+En resumen se trata de una aplicación base para aprendizaje y para ser usada con múltiples poryectos
 
-## Code scaffolding
+## Capturas
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+|  Login | Listado de items |
+| --- | --- |
+| <img src="https://github.com/Nemut/Angular-admin/blob/master/src/assets/captura1.jpg"/> | <img src="https://github.com/Nemut/Angular-admin/blob/master/src/assets/captura2.jpg"/> |
